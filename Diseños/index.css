@@ -1,0 +1,17 @@
+.Enlaces{
+    text-align: left;
+    text-decoration: none;
+    padding-top: 30px;
+}
+button{
+    background-color: transparent;
+    border: transparent;
+    width: 250px;
+}
+button:hover{
+    background-color: #D5D5D5;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
