@@ -10,11 +10,13 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: 0.4s;
   }
   
   .topnav a:hover {
     background-color: #ddd;
     color: black;
+    transition: 0.4s;
   }
   
   .topnav a.active {
@@ -28,7 +30,62 @@
   }
   body{
     text-align: center;
-font-family: Arial, Helvetica, sans-serif;
-color: black;
-margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0%;
 }
+
+
+
+/*Subnav*/
+
+.subnav{
+  overflow: hidden;
+  background-color: #333;
+  height: 400px;
+}
+
+  .subnav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.4s;
+    border-radius: 4px;
+  }
+
+  .subnav a:hover{
+    background-color: #ddd;
+    color: black;
+    transition: 0.4s;
+  }
+
+  .subnav a.active{
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .subnav p{
+    text-align: center;
+    color: #f2f2f2;
+  }
+
+  body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0%;
+  }
+
+  .subnav .Título{
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .subnav .SM{
+    /*size: 10px;*/
+    width: 80px;
+    height: 80px;
+  }
